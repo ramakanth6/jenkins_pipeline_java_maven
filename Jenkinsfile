@@ -7,7 +7,7 @@ node {
    // Get the maven tool.
    // ** NOTE: This 'Maven_home' maven tool must be configured
    // **       in the global configuration.           
-   def mvnHome = tool 'M3'
+   def mvnHome = tool 'Maven_home'
 
    // Mark the code build 'stage'....
    stage 'Build'
